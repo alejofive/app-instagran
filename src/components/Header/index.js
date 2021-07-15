@@ -4,6 +4,7 @@ import { GoDiffAdded } from 'react-icons/go'
 import { BsHeart } from 'react-icons/bs'
 import { RiMessengerLine } from 'react-icons/ri'
 
+
 const Header = () => (
   <header className='header'>
     <img src="/images/logo.png" alt="" />

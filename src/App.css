@@ -5,7 +5,7 @@
   /* border: 1px solid red; */
 }
 
-.App{
+.home{
   max-width: 375px;
   min-height: 100vh;
   margin: auto;
@@ -19,4 +19,39 @@ img{
 button{
   border: none;
   background: none;
+}
+
+footer {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  width: 375px;
+  background: black;
+}
+
+footer a{
+  color: white;
+  font-size: 20px;
+}
+
+footer img{
+  background: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.space-footer{
+  height: 100px;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center;
+
 }

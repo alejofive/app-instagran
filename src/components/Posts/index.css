@@ -1,0 +1,138 @@
+
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.post-user{
+    display: flex;
+    align-items: center;
+}
+
+.post-user h2{
+    color: white;
+    font-size: 16px;
+}
+
+.post-user img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.post-menu button{
+    color: white;
+}
+
+.post-actions{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-actions button{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.post-actions-boton button{
+    margin: 0;
+}
+
+.post-likes{
+    padding:5px 15px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+}
+
+.post-likes-img{
+    margin-right: 10px;
+}
+
+.post-likes img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.post-caption{
+    color: white;
+    padding: 0 15px;
+}
+
+.post-caption a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.post-caption button{
+    color: white;
+}
+
+.post-caption-boton button{
+    margin: 0;
+    padding: 0;
+}
+
+.post-comment{
+    color: white;
+    padding:0 15px;
+}
+
+.post-comment p{
+    margin-top:5px ;
+}
+
+.post-comment-items{
+    display: flex;
+    align-items: center;
+}
+
+.post-comment-items a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.post-comentario-escribir{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-comentario-escribir img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius:100px ;
+    margin-right: 5px;
+}
+
+.post-comentario-escribir-img{
+    display: flex;
+    align-items: center;
+}
+
+.post-comentario-escribir input{
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+.post-comentario-escribir input::placeholder{
+    color: white;
+}
+
+.post-comentario-escribir button{
+    color: white;
+    margin-right: 5px;
+}
