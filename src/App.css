@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
 
-.home{
+.home {
   max-width: 375px;
   min-height: 100vh;
   margin: auto;
   background: black;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-button{
+button {
   border: none;
   background: none;
 }
@@ -33,12 +33,12 @@ footer {
   background: black;
 }
 
-footer a{
+footer a {
   color: white;
   font-size: 20px;
 }
 
-footer img{
+footer img {
   background: gray;
   width: 30px;
   height: 30px;
@@ -46,12 +46,11 @@ footer img{
   margin-right: 15px;
 }
 
-.space-footer{
+.space-footer {
   height: 100px;
 }
 
-.centrar{
+.centrar {
   display: flex;
   justify-content: center;
-
 }
