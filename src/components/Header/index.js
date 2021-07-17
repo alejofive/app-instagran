@@ -9,9 +9,9 @@ const Header = () => (
   <header className='header'>
     <img src="/images/logo.png" alt="" />
     <nav>
-      <a href=""><GoDiffAdded /></a>
-      <a href=""><BsHeart /></a>
-      <a href="" className="icon-number"><RiMessengerLine /> <span>1</span></a>
+      <a href="#/"><GoDiffAdded /></a>
+      <a href="#/"><BsHeart /></a>
+      <a href="#/" className="icon-number"><RiMessengerLine /> <span>1</span></a>
     </nav>
   </header>
 )

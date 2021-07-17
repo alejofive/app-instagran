@@ -3,47 +3,47 @@ import './index.css'
 
 const GaleriaBuscador = () =>
     <div className='galeria'>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
 
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
-        <a href="">
+        <a href="#/">
             <img src='/images/image.jpg' alt="" />
         </a>
     </div>

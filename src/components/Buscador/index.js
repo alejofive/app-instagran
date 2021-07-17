@@ -8,7 +8,7 @@ function Buscador() {
                 <div className='item-buscador'>
                     <input type="text" placeholder='Search' />
                 </div>
-                <a href="" className='icon-buscardor'>
+                <a href="#/" className='icon-buscardor'>
                     <BsSearch />
                 </a>
             </div>
