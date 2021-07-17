@@ -13,28 +13,28 @@ const GaleriaUser = () =>
 
 
         <div className='galeria-user'>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
-            <a href="">
+            <a href="#/">
                 <img src='/images/image.jpg' alt="" />
             </a>
 
