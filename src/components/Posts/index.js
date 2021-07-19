@@ -64,14 +64,13 @@ const Posts = () => {
           </p>
 
           <div className="post-comments">
-            <button>Ver los 15 Comentarios</button>
+            <button className='padding'>Ver los 15 Comentarios</button>
             <div className="post-comment">
               <div className='post-comment-items'>
                 <a href="#/">Sidney</a>
                 <p>Amigos toda la ropa es linda</p>
-                <button><i></i></button>
               </div>
-              <p>Hace 23 horas</p>
+              <p className='comment-horas'>Hace 23 horas</p>
             </div>
             <div className='post-comentario-escribir'>
               <div className='post-comentario-escribir-img'>

@@ -1,8 +1,20 @@
 {
   "stories": [
-    { "id": 1, "user": "luisferdk", "img": "/images/stories/luisferdk.jpg" },
-    { "id": 2, "user": "nney09", "img": "/images/stories/nney09.jpg" },
-    { "id": 3, "user": "alejofive", "img": "/images/stories/alejofive.jpg" }
+    {
+      "id": 1,
+      "user": "luisferdk",
+      "img": "/images/stories/luisferdk.jpg"
+    },
+    {
+      "id": 2,
+      "user": "nney09",
+      "img": "/images/stories/nney09.jpg"
+    },
+    {
+      "id": 3,
+      "user": "alejofive",
+      "img": "/images/stories/alejofive.jpg"
+    }
   ],
   "posts": [
     {
@@ -13,7 +25,9 @@
       "likes": {
         "number": 3,
         "lastUser": "John",
-        "images": ["/images/stories/luisferdk.jpg"]
+        "images": [
+          "/images/stories/luisferdk.jpg"
+        ]
       }
     },
     {
@@ -24,7 +38,10 @@
       "likes": {
         "number": 35,
         "lastUser": "nney09",
-        "images": ["/images/stories/alejofive.jpg", "/images/stories/nney09.jpg"]
+        "images": [
+          "/images/stories/alejofive.jpg",
+          "/images/stories/nney09.jpg"
+        ]
       }
     },
     {
@@ -35,7 +52,11 @@
       "likes": {
         "number": 50,
         "lastUser": "luisferdk",
-        "images": ["/images/stories/luisferdk.jpg", "/images/stories/alejofive.jpg"]
+        "images": [
+          "/images/stories/luisferdk.jpg",
+          "/images/stories/alejofive.jpg",
+          "/images/stories/alejofive.jpg"
+        ]
       }
     }
   ]
