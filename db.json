@@ -20,6 +20,7 @@
     {
       "id": 1,
       "user": "alejofive",
+      "caption": "I'm ready",
       "imgUser": "/images/stories/alejofive.jpg",
       "imgPost": "/images/posts/alejofive.jpg",
       "likes": {
@@ -28,11 +29,23 @@
         "images": [
           "/images/stories/luisferdk.jpg"
         ]
-      }
+      },
+      "comments": [
+        {
+          "user": "nney09",
+          "description": "Que buena foto"
+        },
+        {
+          "user": "luisferdk",
+          "description": "Brutal. Súper Gamer"
+        }
+      ],
+      "time": "Hace 10 horas"
     },
     {
       "id": 2,
       "user": "luisferdk",
+      "caption": "La vida es duro para algunos, otros solo disfrutamos",
       "imgUser": "/images/stories/luisferdk.jpg",
       "imgPost": "/images/posts/luisferdk.jpg",
       "likes": {
@@ -42,11 +55,19 @@
           "/images/stories/alejofive.jpg",
           "/images/stories/nney09.jpg"
         ]
-      }
+      },
+      "comments": [
+        {
+          "user": "nney09",
+          "description": "Me encanta esa foto Mi Vida"
+        }
+      ],
+      "time": "Hace 5 horas"
     },
     {
       "id": 3,
       "user": "nney09",
+      "caption": "Aquí les comparto un poco de mi día a día",
       "imgUser": "/images/stories/nney09.jpg",
       "imgPost": "/images/posts/ney.jpg",
       "likes": {
@@ -54,10 +75,20 @@
         "lastUser": "luisferdk",
         "images": [
           "/images/stories/luisferdk.jpg",
-          "/images/stories/alejofive.jpg",
           "/images/stories/alejofive.jpg"
         ]
-      }
+      },
+      "comments": [
+        {
+          "user": "luisferdk",
+          "description": "Esooo pantallera UI/UX"
+        },
+        {
+          "user": "alejofive",
+          "description": "Que linda Ney te extraño"
+        }
+      ],
+      "time": "Hace un momento"
     }
   ]
 }

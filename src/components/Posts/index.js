@@ -59,18 +59,25 @@ const Posts = () => {
           </div>
 
           <p className="post-caption">
-            <a href="#/">Sidney</a> Lorem ipsum dolor sit amet consectetur...
-            <button>más</button>
+            <div className='post-caption-caption'>
+              <a href="#/">{post.user}</a><p>{post.caption}</p>
+            </div>
           </p>
 
           <div className="post-comments">
             <button className='padding'>Ver los 15 Comentarios</button>
             <div className="post-comment">
               <div className='post-comment-items'>
-                <a href="#/">Sidney</a>
-                <p>Amigos toda la ropa es linda</p>
+                {post.comments.map(user => (
+                  <div className='post-comment-items-description'>
+                    <a href="">{user.user}</a>
+                    <p>{user.description}</p>
+                  </div>
+                ))}
+
+
               </div>
-              <p className='comment-horas'>Hace 23 horas</p>
+              <p className='comment-horas'>{post.time}</p>
             </div>
             <div className='post-comentario-escribir'>
               <div className='post-comentario-escribir-img'>

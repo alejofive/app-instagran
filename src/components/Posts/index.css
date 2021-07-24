@@ -68,6 +68,13 @@
 .post-caption {
   color: white;
   padding: 0 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.post-caption-caption{
+  display: flex;
 }
 
 .post-caption a {
@@ -107,6 +114,12 @@
 }
 
 .post-comment-items {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.post-comment-items-description{
   display: flex;
   align-items: center;
 }
